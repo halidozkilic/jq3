@@ -1,0 +1,45 @@
+html{
+	height:100%;
+}
+body{
+	background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+line-height: 1.5;
+}
+h1{
+	font-size: 200;
+	color:white;
+	text-align: center;
+}
+.tabs{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.tab-list{
+	padding: 1rem;
+
+}
+.tab{
+	border:1px solid tranparent;
+	border-radius: 40px;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	color:rgba(255,255,255,0.6);
+	font-weight: 700;
+	background-color: rgba(10,20,30,0.3);
+}
+.tab.active{
+	color:white;
+	background-color: rgba(222,222,222,0.1);
+	border:3px solid rgba(255,255,255,0.3);
+}
+.tab-content{
+	
+	padding: 1.5rem;
+	color:black;
+	display: none;
+}
+.show{
+	display: block;
+}
